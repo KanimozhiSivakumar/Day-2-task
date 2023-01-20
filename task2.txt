@@ -1,0 +1,31 @@
+DAY 2
+Difference between document and window object
+Window object
+When JavaScript is executed inside the browser, the window object is the JavaScript Global object..
+The window object represents the browser window.
+The window object has many useful properties like the location object and the setTimeout function.
+Since the window object is the Global object, ergo, it is the end of all scope chains, you don’t have to explicitly specify it when accessing its properties…
+Instead of window.setTimeout, you can just write setTimeout
+Same goes with document object instead of window.document, you can just write document object.
+The window is part of BOM, not DOM.
+Document Object
+The document object is a property of the window object
+The document object represents the HTML document loaded in that window.
+The document and window are different objects and they have some different events. Using addEventListener() on them listens to events destined for a different object. You should use the one that actually has the event you are interested in. For example, there is a "resize" event on the window"resize" event on the window
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
